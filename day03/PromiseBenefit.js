@@ -23,6 +23,6 @@ return new Promise((resolve) => {
 }
 getIntoCar()
 .then(() => startCar())
- .then(() => drive()).finally(() => console.log("Reach the destination."));
+.then(() => drive()).finally(() => console.log("Reach the destination."));
 
   
